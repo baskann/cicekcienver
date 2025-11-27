@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(copy \"c:\\Users\\90507\\Desktop\\cicekcienver\\544082528_17921126493138570_2149550626349950447_n.jpg\" \"c:\\Users\\90507\\Desktop\\cicekcienver\\images\\logo.jpg\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
