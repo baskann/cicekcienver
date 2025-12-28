@@ -589,7 +589,7 @@ select {
     display: flex;
     justify-content: center;
     gap: 60px;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .stat-item {
@@ -907,7 +907,7 @@ select {
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .filter-btn {
@@ -2260,7 +2260,7 @@ select {
 
 .instagram-header {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
 }
 
 .instagram-link {
