@@ -589,6 +589,7 @@ select {
     display: flex;
     justify-content: center;
     gap: 60px;
+    margin-bottom: 40px;
 }
 
 .stat-item {
