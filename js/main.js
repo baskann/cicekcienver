@@ -495,10 +495,10 @@ function initParticles() {
 function initAOS() {
     if (typeof AOS !== 'undefined') {
         AOS.init({
-            duration: 800,
+            duration: 600,
             easing: 'ease-out-cubic',
             once: true,
-            offset: 100,
+            offset: 80,
             delay: 100,
         });
     }
