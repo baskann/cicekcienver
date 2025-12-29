@@ -2913,9 +2913,10 @@ select {
 }
 
 .developer-name {
-    color: #d4af37;
+    font-style: italic;
+    color: #a89050;
     font-weight: 600;
-    background: linear-gradient(90deg, #d4af37, #f4e4bc, #d4af37);
+    background: linear-gradient(90deg, #a89050, #c9b896, #a89050);
     background-size: 200% auto;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
