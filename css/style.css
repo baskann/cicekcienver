@@ -2893,3 +2893,21 @@ select {
         padding: 15px 20px;
     }
 }
+
+/* Powered By */
+.powered-by {
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+}
+
+.powered-by a {
+    color: rgba(255, 255, 255, 0.6);
+    margin-left: 5px;
+    font-size: 0.85rem;
+    transition: color 0.3s ease;
+}
+
+.powered-by a:hover {
+    color: #E1306C;
+}
