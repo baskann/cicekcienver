@@ -1,1 +1,759 @@
-<\!DOCTYPE html><html><head><title>Test</title></head><body><h1>Site Calisiyor</h1></body></html>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enver Çiçekçilik - Yalova'nın en güzel çiçekleri. Düğün, cenaze, açılış çiçekleri ve peyzaj hizmetleri.">
+    <meta name="keywords" content="çiçekçi, yalova çiçekçi, enver çiçekçilik, düğün çiçeği, gelin buketi, cenaze çelengi, peyzaj, açılış çiçeği">
+    <meta name="author" content="Enver Çiçekçilik">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://enverçicekcilik.com/">
+    <meta property="og:title" content="Enver Çiçekçilik | Yalova'nın En Prestijli Çiçekçisi">
+    <meta property="og:description" content="2020'den beri Yalova'da kaliteli çiçek ve peyzaj hizmetleri sunuyoruz.">
+    <meta property="og:image" content="images/logo.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://enverçicekcilik.com/">
+    <meta property="twitter:title" content="Enver Çiçekçilik | Yalova'nın En Prestijli Çiçekçisi">
+    <meta property="twitter:description" content="2020'den beri Yalova'da kaliteli çiçek ve peyzaj hizmetleri sunuyoruz.">
+
+    <title>Enver Çiçekçilik | Yalova'nın En Prestijli Çiçekçisi</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/jpeg" href="images/logo.jpg">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="flower-loader">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <p>Enver Çiçekçilik</p>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#anasayfa" class="nav-logo">
+                <img src="images/logo.jpg" alt="Enver Çiçekçilik Logo">
+                <div class="logo-text">
+                    <span class="logo-main">ENVER</span>
+                    <span class="logo-sub">Çiçekçilik</span>
+                </div>
+            </a>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#anasayfa" class="nav-link active">Ana Sayfa</a></li>
+                <li><a href="#hakkimizda" class="nav-link">Hakkımızda</a></li>
+                <li><a href="#hizmetler" class="nav-link">Hizmetler</a></li>
+                <li><a href="#galeri" class="nav-link">Galeri</a></li>
+                <li><a href="#yorumlar" class="nav-link">Yorumlar</a></li>
+                <li><a href="#iletisim" class="nav-link">İletişim</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="tel:+905370581775" class="nav-phone">
+                    <i class="fas fa-phone"></i>
+                    <span>Hemen Ara</span>
+                </a>
+                <button class="nav-toggle" id="nav-toggle" aria-label="Menü">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="anasayfa" class="hero">
+        <div class="hero-bg">
+            <!-- Video Background -->
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="https://assets.mixkit.co/videos/preview/mixkit-florist-arranging-a-bouquet-of-flowers-39761-large.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content" data-aos="fade-up" data-aos-duration="1200">
+            <span class="hero-badge">EST. 2020 - YALOVA</span>
+            <h1 class="hero-title">
+                <span class="title-elegant">Enver</span>
+                <span class="title-main">Çiçekçilik</span>
+            </h1>
+            <p class="hero-subtitle">Duygularınızı en güzel çiçeklerle ifade edin</p>
+            <p class="hero-description">Yalova'nın kalbinde, her anınıza özel tasarım çiçek aranjmanları ve profesyonel peyzaj hizmetleri</p>
+            <div class="hero-buttons">
+                <a href="#hizmetler" class="btn btn-primary">
+                    <i class="fas fa-seedling"></i>
+                    Hizmetlerimiz
+                </a>
+                <a href="https://wa.me/905370581775" class="btn btn-secondary" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    WhatsApp'tan Ulaşın
+                </a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number" data-count="5">0</span>
+                    <span class="stat-label">Yıllık Deneyim</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="2500">0</span>
+                    <span class="stat-suffix">+</span>
+                    <span class="stat-label">Mutlu Müşteri</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" data-count="500">0</span>
+                    <span class="stat-suffix">+</span>
+                    <span class="stat-label">Çiçek Çeşidi</span>
+                </div>
+            </div>
+        </div>
+        <a href="#hakkimizda" class="hero-scroll">
+            <span>Keşfet</span>
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="hakkimizda" class="about section">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-image" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="image-frame">
+                        <img src="images/logo.jpg" alt="Enver Çiçekçilik Hakkında">
+                        <div class="image-accent"></div>
+                    </div>
+                    <div class="experience-badge">
+                        <span class="exp-number">5</span>
+                        <span class="exp-text">Yıllık<br>Tecrübe</span>
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left" data-aos-duration="1000">
+                    <span class="section-badge">Bizi Tanıyın</span>
+                    <h2 class="section-title">Enver Çiçekçilik <span>Hikayesi</span></h2>
+                    <div class="about-text">
+                        <p class="lead">2020 yılından bu yana Yalova'da çiçek severlere hizmet vermenin gururunu yaşıyoruz.</p>
+                        <p>Enver Çiçekçilik olarak, her çiçeğin bir hikaye anlattığına inanıyoruz. Sevgi, mutluluk, taziye veya kutlama... Her duygunuzu en güzel şekilde ifade edecek aranjmanları sizin için özenle hazırlıyoruz.</p>
+                        <p>Taze çiçeklerimiz, yaratıcı tasarımlarımız ve müşteri memnuniyetine verdiğimiz önem ile Yalova'nın güvenilir çiçekçisi olmaya devam ediyoruz.</p>
+                    </div>
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Günlük Taze Çiçekler</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Özgün Tasarımlar</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Hızlı Teslimat</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Uygun Fiyat</span>
+                        </div>
+                    </div>
+                    <a href="#iletisim" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Bizimle İletişime Geçin
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="hizmetler" class="services section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Profesyonel Hizmetler</span>
+                <h2 class="section-title">Sunduğumuz <span>Hizmetler</span></h2>
+                <p class="section-desc">Her özel anınız için profesyonel çiçek ve peyzaj çözümleri</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Düğün & Nişan</h3>
+                    <p>Gelin buketleri, nikah masası süslemeleri, mekan dekorasyonu ve davetli çiçekleri ile hayalinizdeki düğünü gerçeğe dönüştürüyoruz.</p>
+                    <ul class="service-features">
+                        <li>Gelin Buketi</li>
+                        <li>Damat Yaka Çiçeği</li>
+                        <li>Masa Süslemeleri</li>
+                        <li>Mekan Dekorasyonu</li>
+                    </ul>
+                </div>
+
+                <div class="service-card featured" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-badge">En Popüler</div>
+                    <div class="service-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Özel Gün Çiçekleri</h3>
+                    <p>Doğum günleri, yıldönümleri, sevgililer günü ve tüm özel anlarınız için unutulmaz çiçek aranjmanları.</p>
+                    <ul class="service-features">
+                        <li>Buketler</li>
+                        <li>Aranjmanlar</li>
+                        <li>Kutuda Çiçekler</li>
+                        <li>Teraryumlar</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h3>Açılış & Kurumsal</h3>
+                    <p>İş yerinizin açılışı veya kurumsal etkinlikleriniz için göz alıcı çiçek aranjmanları ve çelenk hizmetleri.</p>
+                    <ul class="service-features">
+                        <li>Açılış Çelenkleri</li>
+                        <li>Kurumsal Aranjmanlar</li>
+                        <li>Ofis Bitkileri</li>
+                        <li>Etkinlik Süslemeleri</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-dove"></i>
+                    </div>
+                    <h3>Cenaze & Taziye</h3>
+                    <p>Kaybınız için içten başsağlığı dileklerimizle, saygılı ve zarif taziye çiçekleri hazırlıyoruz.</p>
+                    <ul class="service-features">
+                        <li>Cenaze Çelenkleri</li>
+                        <li>Taziye Aranjmanları</li>
+                        <li>Anma Çiçekleri</li>
+                        <li>Aile Çelenkleri</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-tree"></i>
+                    </div>
+                    <h3>Peyzaj Hizmetleri</h3>
+                    <p>Bahçe düzenleme, bitkilendirme ve peyzaj projeleriniz için profesyonel tasarım ve uygulama.</p>
+                    <ul class="service-features">
+                        <li>Bahçe Tasarımı</li>
+                        <li>Çim Ekimi</li>
+                        <li>Bitkilendirme</li>
+                        <li>Bakım Hizmetleri</li>
+                    </ul>
+                </div>
+
+                <div class="service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Hızlı Teslimat</h3>
+                    <p>Yalova ve çevresine aynı gün teslimat imkanı. Çiçekleriniz taptaze elinize ulaşsın.</p>
+                    <ul class="service-features">
+                        <li>Aynı Gün Teslimat</li>
+                        <li>Özenli Paketleme</li>
+                        <li>Takip İmkanı</li>
+                        <li>Kapıda Ödeme</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeri" class="gallery section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Çalışmalarımız</span>
+                <h2 class="section-title">Çiçek <span>Galerisi</span></h2>
+                <p class="section-desc">Özenle hazırladığımız çiçek aranjmanlarımızdan örnekler</p>
+            </div>
+
+            <div class="gallery-filter" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">Tümü</button>
+                <button class="filter-btn" data-filter="buket">Buketler</button>
+                <button class="filter-btn" data-filter="aranjman">Aranjmanlar</button>
+                <button class="filter-btn" data-filter="dugun">Düğün</button>
+                <button class="filter-btn" data-filter="cenaze">Taziye</button>
+            </div>
+
+            <div class="gallery-grid" id="gallery-grid">
+                <div class="gallery-item" data-category="buket" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Kırmızı Gül Buketi">
+                        <div class="gallery-overlay">
+                            <h4>Kırmızı Gül Buketi</h4>
+                            <p>Romantik anlar için</p>
+                            <button class="gallery-zoom" data-image="https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?auto=compress&cs=tinysrgb&w=1200">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="aranjman" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/931179/pexels-photo-931179.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Renkli Aranjman">
+                        <div class="gallery-overlay">
+                            <h4>Renkli Aranjman</h4>
+                            <p>Şık tasarım</p>
+                            <button class="gallery-zoom" data-image="https://images.pexels.com/photos/931179/pexels-photo-931179.jpeg?auto=compress&cs=tinysrgb&w=1200">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dugun" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/1128783/pexels-photo-1128783.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Gelin Buketi">
+                        <div class="gallery-overlay">
+                            <h4>Gelin Buketi</h4>
+                            <p>Özel gününüz için</p>
+                            <button class="gallery-zoom" data-image="https://images.pexels.com/photos/1128783/pexels-photo-1128783.jpeg?auto=compress&cs=tinysrgb&w=1200">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="buket" data-aos="zoom-in" data-aos-delay="250">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Pembe Güller">
+                        <div class="gallery-overlay">
+                            <h4>Pembe Çiçekler</h4>
+                            <p>Zarif dokunuş</p>
+                            <button class="gallery-zoom" data-image="https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg?auto=compress&cs=tinysrgb&w=1200">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="cenaze" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/931158/pexels-photo-931158.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Beyaz Çelenk">
+                        <div class="gallery-overlay">
+                            <h4>Taziye Çiçeği</h4>
+                            <p>Saygıyla</p>
+                            <button class="gallery-zoom" data-image="https://images.pexels.com/photos/931158/pexels-photo-931158.jpeg?auto=compress&cs=tinysrgb&w=1200">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="aranjman" data-aos="zoom-in" data-aos-delay="350">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/931166/pexels-photo-931166.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Karışık Buket">
+                        <div class="gallery-overlay">
+                            <h4>Karışık Buket</h4>
+                            <p>Modern tasarım</p>
+                            <button class="gallery-zoom" data-image="https://images.pexels.com/photos/931166/pexels-photo-931166.jpeg?auto=compress&cs=tinysrgb&w=1200">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="dugun" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/169193/pexels-photo-169193.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Düğün Dekorasyonu">
+                        <div class="gallery-overlay">
+                            <h4>Düğün Dekorasyonu</h4>
+                            <p>Hayallerinizi süsleyelim</p>
+                            <button class="gallery-zoom" data-image="https://images.pexels.com/photos/169193/pexels-photo-169193.jpeg?auto=compress&cs=tinysrgb&w=1200">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-item" data-category="buket" data-aos="zoom-in" data-aos-delay="450">
+                    <div class="gallery-image">
+                        <img src="https://images.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg?auto=compress&cs=tinysrgb&w=600" alt="Papatya Buketi">
+                        <div class="gallery-overlay">
+                            <h4>Papatya Buketi</h4>
+                            <p>Baharın müjdecisi</p>
+                            <button class="gallery-zoom" data-image="https://images.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg?auto=compress&cs=tinysrgb&w=1200">
+                                <i class="fas fa-search-plus"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Lightbox -->
+    <div class="lightbox" id="lightbox">
+        <button class="lightbox-close"><i class="fas fa-times"></i></button>
+        <img src="" alt="Büyütülmüş görsel" id="lightbox-image">
+    </div>
+
+    <!-- Testimonials Section -->
+    <section id="yorumlar" class="testimonials section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Müşteri Yorumları</span>
+                <h2 class="section-title">Mutlu <span>Müşterilerimiz</span></h2>
+                <p class="section-desc">Bizi tercih eden değerli müşterilerimizin görüşleri</p>
+            </div>
+
+            <div class="testimonials-slider" data-aos="fade-up">
+                <div class="testimonial-track" id="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Düğünümüz için hazırladıkları çiçekler muhteşemdi! Gelin buketim tam hayal ettiğim gibiydi. Enver Bey'e ve ekibine çok teşekkür ederiz."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">AY</div>
+                            <div class="author-info">
+                                <h4>Ayşe Y.</h4>
+                                <span>Düğün Müşterisi</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"İş yerimizin açılışı için sipariş ettiğimiz çelenk çok gösterişli ve kaliteliydi. Teslimat da söz verilen saatte yapıldı. Kesinlikle tavsiye ederim."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">MK</div>
+                            <div class="author-info">
+                                <h4>Mehmet K.</h4>
+                                <span>Kurumsal Müşteri</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Annemin doğum günü için sürpriz çiçek gönderdim. Aranjman o kadar güzeldi ki annem çok duygulandı. Fiyatlar da gayet makul."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">SE</div>
+                            <div class="author-info">
+                                <h4>Selin E.</h4>
+                                <span>Bireysel Müşteri</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-card">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"Bahçemizin peyzaj düzenlemesini Enver Çiçekçilik'e yaptırdık. Hem tasarım hem uygulama mükemmeldi. Artık komşularımız bile kıskanıyor!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">OC</div>
+                            <div class="author-info">
+                                <h4>Okan Ç.</h4>
+                                <span>Peyzaj Müşterisi</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-nav">
+                    <button class="nav-btn prev" id="testimonial-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="nav-dots" id="testimonial-dots"></div>
+                    <button class="nav-btn next" id="testimonial-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta section">
+        <div class="cta-bg">
+            <div class="cta-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="cta-content" data-aos="zoom-in">
+                <h2>Özel Bir Gün mü Yaklaşıyor?</h2>
+                <p>Sevdiklerinizi mutlu etmek için hemen sipariş verin. Size özel tasarımlarla hayallerinizi gerçeğe dönüştürelim.</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/905370581775" class="btn btn-light" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                        WhatsApp'tan Sipariş
+                    </a>
+                    <a href="tel:+905370581775" class="btn btn-outline-light">
+                        <i class="fas fa-phone"></i>
+                        Hemen Ara
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Section -->
+    <section class="instagram-section">
+        <div class="container">
+            <div class="instagram-header" data-aos="fade-up">
+                <span class="section-badge">Bizi Takip Edin</span>
+                <h2 class="section-title">Instagram'da <span>@cicekcienver</span></h2>
+                <p class="section-desc">En son çalışmalarımız ve özel tasarımlarımız için bizi takip edin</p>
+            </div>
+
+            <div class="instagram-grid" data-aos="fade-up" data-aos-delay="200">
+                <a href="https://instagram.com/cicekcienver" target="_blank" class="instagram-item">
+                    <img src="https://images.pexels.com/photos/56866/garden-rose-red-pink-56866.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Instagram Post">
+                </a>
+                <a href="https://instagram.com/cicekcienver" target="_blank" class="instagram-item">
+                    <img src="https://images.pexels.com/photos/931179/pexels-photo-931179.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Instagram Post">
+                </a>
+                <a href="https://instagram.com/cicekcienver" target="_blank" class="instagram-item">
+                    <img src="https://images.pexels.com/photos/736230/pexels-photo-736230.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Instagram Post">
+                </a>
+                <a href="https://instagram.com/cicekcienver" target="_blank" class="instagram-item">
+                    <img src="https://images.pexels.com/photos/931177/pexels-photo-931177.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Instagram Post">
+                </a>
+                <a href="https://instagram.com/cicekcienver" target="_blank" class="instagram-item">
+                    <img src="https://images.pexels.com/photos/931166/pexels-photo-931166.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Instagram Post">
+                </a>
+                <a href="https://instagram.com/cicekcienver" target="_blank" class="instagram-item">
+                    <img src="https://images.pexels.com/photos/169193/pexels-photo-169193.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Instagram Post">
+                </a>
+            </div>
+
+            <div class="instagram-cta" data-aos="fade-up" data-aos-delay="400">
+                <a href="https://instagram.com/cicekcienver" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                    Instagram'da Takip Et
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="iletisim" class="contact section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-badge">Ulaşın</span>
+                <h2 class="section-title">İletişime <span>Geçin</span></h2>
+                <p class="section-desc">Sorularınız veya siparişleriniz için bize ulaşın</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Adresimiz</h4>
+                            <p>Bahçelievler, Fatih Cd. No:119/A<br>77200 Yalova Merkez/Yalova</p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Telefon</h4>
+                            <p><a href="tel:+905370581775">0537 058 17 75</a></p>
+                        </div>
+                    </div>
+
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h4>Çalışma Saatleri</h4>
+                            <p>Pazartesi - Cumartesi: 08:00 - 20:00<br>Pazar: 09:00 - 18:00</p>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="https://instagram.com/cicekcienver" target="_blank" class="social-link" aria-label="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://facebook.com/envercicekcilik" target="_blank" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://wa.me/905370581775" target="_blank" class="social-link" aria-label="WhatsApp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper" data-aos="fade-left">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Adınız Soyadınız</label>
+                            <input type="text" id="name" name="name" required placeholder="Adınızı girin">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Telefon</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="Telefon numaranız">
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Konu</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Konu seçin</option>
+                                <option value="siparis">Sipariş Vermek İstiyorum</option>
+                                <option value="fiyat">Fiyat Bilgisi Almak İstiyorum</option>
+                                <option value="peyzaj">Peyzaj Hizmeti İstiyorum</option>
+                                <option value="diger">Diğer</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mesajınız</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Mesajınızı yazın..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i>
+                            Mesaj Gönder
+                        </button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Google Maps -->
+            <div class="map-wrapper" data-aos="fade-up">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d756.7038323507211!2d29.255956269606358!3d40.65600101562167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cafb0ad8ceb019%3A0xf3aa1da83dc1731d!2zRW52ZXIgw4dpw6dla8OnaWxpaw!5e0!3m2!1str!2sus!4v1766883360918!5m2!1str!2sus"
+                    width="100%"
+                    height="400"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Enver Çiçekçilik Konum">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <a href="#anasayfa" class="footer-logo">
+                            <img src="images/logo.jpg" alt="Enver Çiçekçilik">
+                            <div class="logo-text">
+                                <span class="logo-main">ENVER</span>
+                                <span class="logo-sub">Çiçekçilik</span>
+                            </div>
+                        </a>
+                        <p>2020'den bu yana Yalova'da sevdiklerinizi çiçeklerle mutlu ediyoruz. Kalite ve güvenin adresi.</p>
+                        <div class="footer-social">
+                            <a href="https://instagram.com/cicekcienver" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                            <a href="https://wa.me/905370581775" target="_blank" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Hızlı Bağlantılar</h4>
+                        <ul>
+                            <li><a href="#anasayfa">Ana Sayfa</a></li>
+                            <li><a href="#hakkimizda">Hakkımızda</a></li>
+                            <li><a href="#hizmetler">Hizmetler</a></li>
+                            <li><a href="#galeri">Galeri</a></li>
+                            <li><a href="#iletisim">İletişim</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-links">
+                        <h4>Hizmetlerimiz</h4>
+                        <ul>
+                            <li><a href="#hizmetler">Düğün Çiçekleri</a></li>
+                            <li><a href="#hizmetler">Buket & Aranjman</a></li>
+                            <li><a href="#hizmetler">Cenaze Çelengi</a></li>
+                            <li><a href="#hizmetler">Açılış Çiçeği</a></li>
+                            <li><a href="#hizmetler">Peyzaj</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-contact">
+                        <h4>İletişim</h4>
+                        <ul>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Bahçelievler, Fatih Cd. No:119/A, 77200 Yalova</span>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+905370581775">0537 058 17 75</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2024 Enver Çiçekçilik. Tüm hakları saklıdır.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/905370581775" class="whatsapp-float" target="_blank" aria-label="WhatsApp ile iletişime geçin">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Size nasıl yardımcı olabiliriz?</span>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Yukarı çık">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
